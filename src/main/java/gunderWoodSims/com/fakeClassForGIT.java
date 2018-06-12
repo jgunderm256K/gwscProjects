@@ -7,6 +7,11 @@ public class fakeClassForGIT
 	{	//Default constructor..
 	}
 	
+	public String getGitTestString()
+	{	return this.gitTestString;
+	}
 	
-
+	public void setGitTestString(String gitTestStr)
+	{	this.gitTestString = gitTestStr;
+	}
 }
